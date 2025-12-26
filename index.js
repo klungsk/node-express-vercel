@@ -11,9 +11,9 @@ app.get('/about',(req ,res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`API Listening on PORT ${PORT}`);
+    console.log(`Server is running on port ${PORT}`);
 });
 
-module.exports = app
+module.exports = app;
 
  
